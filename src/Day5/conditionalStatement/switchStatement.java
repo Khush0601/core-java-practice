@@ -1,0 +1,31 @@
+package Day5.conditionalStatement;
+
+// switch statement is used when we have fixed values to compare
+// It executes one case based on the matching value
+
+
+public class switchStatement{
+    public static void main(String[] args) {
+
+        int day = 4;
+        switch (day) {
+            case 1:
+                System.out.println("Monday");
+                break;
+            case 2:
+                System.out.println("Tuesday");
+                break;
+            case 3:
+                System.out.println("Wednesday");
+                break;
+            case 4:
+                System.out.println("Thursday");
+                break;
+            case 5:
+                System.out.println("Friday");
+                break;
+            default:
+                System.out.println("Invalid day");
+        }
+    }
+}
